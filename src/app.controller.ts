@@ -32,7 +32,7 @@ export class AppController {
     return this.appService.getHello();
   }
 
-  @Cron(CronExpression.EVERY_MINUTE)
+  @Cron(CronExpression.EVERY_DAY_AT_MIDNIGHT)
   etlCron() {
     this.doETL();
   }

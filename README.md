@@ -21,7 +21,12 @@ This project was developed for the Naologic selection process. Follow the steps 
 docker-compose up --build
 ```
 
-2. Start the project:
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the project:
 
 ```bash
 npm run start:dev
